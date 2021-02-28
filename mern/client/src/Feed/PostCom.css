@@ -1,0 +1,24 @@
+.comments__container {
+  background-color: rgb(255, 255, 255);
+  width: 400px;
+  color: black;
+  height: 100;
+  margin-top: 40px;
+}
+.post__backBtn {
+  margin-left: auto !important;
+  width: 30px !important;
+  width: 10px !important;
+  border-radius: 40px !important;
+  padding: 5px;
+  margin-top: 6px;
+}
+
+.post__backBtn:hover {
+  color: var(--twitter-color) !important;
+}
+
+.weird:hover {
+  border: none !important;
+  color: var(--twitter-color) !important;
+}

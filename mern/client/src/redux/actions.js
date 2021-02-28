@@ -1,0 +1,14 @@
+export const DECREASE = "DECREASE";
+export const INCREASE = "INCREASE";
+export const REMOVE = "REMOVE";
+export const CLEAR_CART = "CLEAR_CART";
+export const GET_TOTALS = "GET_TOTALS";
+export const TOGGLE_AMOUNT = "TOGGLE_AMOUNT";
+export const ADD_TOCART = "ADD_TOCART";
+export const FETCH_ALL = "FETCH_ALL";
+export const CREATE = "CREATE";
+export const UPDATE = "UPDATE";
+export const SETCURRENTID = "SETCURRENTID";
+export const DELETE = "DELETE";
+export const LIKE = "LIKE";
+export const UPDATECOMMENTS = "UPDATECOMMENTS";

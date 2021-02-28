@@ -1,0 +1,63 @@
+.sidebarOption {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin-bottom: 20px;
+  padding: 5px;
+}
+
+.sidebarOption:hover {
+  background-color: #e8f5fe;
+  border-radius: 30px;
+  color: var(--twitter-color);
+  transition: color 100ms ease-out;
+}
+
+.sidebarOption > .MuiSvgIcon-root {
+  padding: 5px;
+  font-size: 30px;
+  margin-bottom: -7px;
+}
+
+.sidebarOption > h2:hover {
+  color: var(--twitter-color);
+  transition: color 100ms ease-out;
+}
+
+.sidebarOption--active {
+  color: var(--twitter-color);
+}
+
+.sidebarOption__text {
+  margin-left: 10px;
+  font-weight: 800;
+  font-size: 20px;
+  margin-right: 20px;
+  margin-top: 15px;
+  width: 100%;
+}
+
+.sidebarOption__text--active {
+  color: var(--twitter-color);
+}
+
+@media only screen and (max-width: 768px) {
+  .sidebarOption__text {
+    display: none;
+  }
+  .sidebarOption {
+    width: 10px !important;
+  }
+  .sidebarOption--active {
+    width: 10px !important;
+  }
+  .sidebarOption > .MuiSvgIcon-root {
+    padding: 3px;
+    font-size: 30px;
+    margin-bottom: -7px;
+  }
+
+  .sidebarOption:hover {
+    background-color: #ffffff;
+  }
+}

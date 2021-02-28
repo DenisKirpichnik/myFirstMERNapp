@@ -1,0 +1,62 @@
+.form {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid whitesmoke;
+}
+
+.form__buttonClose {
+  margin-left: auto !important;
+}
+
+.form__header {
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.form__textField {
+  margin-bottom: 10px !important;
+}
+.form__fileInput {
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form__filebaseButton {
+  width: 150px !important;
+  border-radius: 20px !important;
+  background-color: red !important;
+}
+
+.form__buttonsContainer {
+  margin-top: 20px !important;
+  display: flex;
+  justify-content: space-between;
+}
+
+.form__buttonSubmit {
+  background-color: var(--twitter-color) !important;
+  border-radius: 15px !important;
+  color: white !important;
+  width: 100px;
+}
+
+.form__buttonSubmit:hover {
+  background-color: rgb(39, 109, 240) !important;
+}
+
+.form__buttonClear {
+  border-radius: 15px !important;
+  color: white !important;
+  background-color: rgb(240, 85, 85) !important;
+  width: 100px;
+}
+
+.form__buttonClear:hover {
+  background-color: rgb(221, 59, 59) !important;
+}

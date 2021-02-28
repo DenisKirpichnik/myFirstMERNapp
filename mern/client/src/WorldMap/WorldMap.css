@@ -1,0 +1,53 @@
+.worldMap__container {
+  width: 100%;
+}
+
+.wordlMap__heading {
+  background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+  padding: 20px;
+  color: rgb(255, 255, 255);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.wordlMap__headingText {
+  margin-left: auto;
+  margin-right: auto;
+  align-self: center;
+
+  font-weight: 800;
+}
+.belowMap__container {
+  height: 200px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.countries__list {
+  height: 150px;
+  flex: 0.7;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.worldmap__resetBtn {
+  border-radius: 15px !important;
+  color: white !important;
+  background-color: rgb(221, 25, 25) !important;
+  width: 100px;
+  height: 30px;
+  margin-top: 20px;
+}
+.worldmap__resetBtn:hover {
+  background-color: rgb(136, 20, 20) !important;
+}
+
+.belowMap__header {
+  align-self: center;
+}

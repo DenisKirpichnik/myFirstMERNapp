@@ -1,0 +1,16 @@
+.footer {
+  background-color: rgb(35, 47, 62);
+  display: flex;
+  height: 100px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  color: white;
+  margin-bottom: -50px;
+}
+
+.footer__copyright {
+  margin-top: 10px;
+  font-size: 16px;
+}

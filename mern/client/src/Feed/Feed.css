@@ -1,0 +1,102 @@
+.feed__container {
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}
+
+.sidebar__fixed {
+  position: sticky;
+  top: 0;
+}
+.widgets__fixed {
+  position: sticky;
+  top: 0;
+}
+.feed__middle {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  flex: 0.7;
+  min-height: 1000px;
+}
+
+.form__container {
+  background-color: white;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.feed__form {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.feed_createPostBtn {
+  background-color: var(--twitter-color) !important;
+  border-radius: 20px !important;
+  width: 150px !important;
+  color: white !important;
+}
+.feed_createPostBtn:hover {
+  background-color: rgb(39, 109, 240) !important;
+}
+
+.feed__posts {
+  flex: 0.5;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  align-self: center;
+}
+
+.sidebar {
+  position: sticky !important;
+}
+
+.postModal__hidden {
+  display: none;
+}
+
+.postModal__shown {
+  display: flex;
+  width: 100%;
+  height: 1000px;
+  display: flex;
+  position: absolute;
+  background-color: rgb(200, 169, 169);
+  color: white;
+  z-index: 1000;
+  transform: translate(-50%, -50%);
+}
+
+@media only screen and (max-width: 768px) {
+  .feed__container {
+    width: 100%;
+  }
+
+  .feed__middle {
+    width: 100%;
+    flex: 0.95;
+  }
+  .widgets {
+    display: none;
+  }
+  .feed_createPostBtn {
+    width: 120px !important;
+    font-size: 12px !important;
+    word-wrap: normal;
+  }
+
+  .feed_createPostText {
+    display: none;
+  }
+  .feed__posts {
+    margin-top: -25px;
+  }
+}
