@@ -10,6 +10,10 @@ app.use(bodyParser.urlencoded({ limit: "30mb", extended: true }));
 app.use(cors());
 app.use("/posts", postRoutes);
 
+app.get("/", (req, res) => {
+  res.send("Hello to yourexp API");
+});
+
 // mongo DB
 const CONNECTION_URL =
   "mongodb+srv://deniskirpichnik:deniskirpichnik123@cluster0.gj23o.mongodb.net/<dbname>?retryWrites=true&w=majority";
